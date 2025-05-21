@@ -1,0 +1,23 @@
+Time Complexity: 
+Time complexity is a way to describe how the runtime of an algorithm increases with the size of the input 
+(usually denoted as n). It helps you estimate the performance and scalability of your code.
+Time complexity is expressed using Big O notation, which provides an upper bound on the growth rate of an 
+algorithm.
+
+Notation	    Name	                Example Scenario
+O(1)	        Constant time	        Accessing an element in a list (arr[i])
+O(log n)	    Logarithmic time        Binary search
+O(n)	        Linear time	            Loop through a list
+O(n log n)	    Linearithmic	        Merge sort, quicksort (average case)
+O(n²)	        Quadratic time	        Bubble sort, insertion sort (worst)
+O(2ⁿ), O(n!)    Exponential/Factorial	Backtracking, permutations
+
+Algorithm	         Best	    Average	    Worst	    Space
+Bubble Sort	         O(n)	    O(n²)	    O(n²)	    O(1)
+Selection Sort	     O(n²)	    O(n²)	    O(n²)	    O(1)
+Insertion Sort	     O(n)	    O(n²)	    O(n²)	    O(1)
+Merge Sort	         O(n log n)	O(n log n)	O(n log n)	O(n)
+Quick Sort	         O(n log n)	O(n log n)	O(n²)	    O(log n)
+Heap Sort	         O(n log n)	O(n log n)	O(n log n)	O(1)
+Timsort (Python)	 O(n)	    O(n log n)	O(n log n)	O(n)
+
